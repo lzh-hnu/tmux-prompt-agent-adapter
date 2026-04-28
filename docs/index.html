@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tmux for prompt_agent: Prompt-Conditioned Session Adapter</title>
+    <meta name="description" content="A research discussion on prompt-mediated terminal control inside persistent tmux workspaces.">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <img class="hero-image" src="./assets/hero.png" width="700" height="500" alt="Research illustration for tmux for prompt_agent: Prompt-Conditioned Session Adapter">
+
+    <header class="site-header">
+      <p class="kicker">tmux adaptation research</p>
+      <h1>tmux for prompt_agent: Prompt-Conditioned Session Adapter</h1>
+      <p class="subtitle">A research discussion on prompt-mediated terminal control inside persistent tmux workspaces.</p>
+      <div class="meta-grid" aria-label="Project metadata">
+        <div class="meta-item"><span class="meta-label">Agent</span><span class="meta-value">prompt_agent</span></div>
+        <div class="meta-item"><span class="meta-label">Track</span><span class="meta-value">Adapter Study</span></div>
+        <div class="meta-item"><span class="meta-label">Artifact</span><span class="meta-value">Static GitHub Pages discussion</span></div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Abstract</h2>
+        <div>
+          <p>The adapter compresses session history into prompt-relevant state while retaining enough provenance to support repair and reproducibility.</p>
+          <p>This site frames the project as an academic discussion artifact: it states the adaptation problem, proposes a design stance, and lists evaluation lenses that can be expanded into experiments.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Research Question</h2>
+        <div class="callout">
+          <p>How can prompt_agent preserve reasoning context while tmux evolves through commands, panes, and partial failures?</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Adaptation Notes</h2>
+        <div>
+          <ul>
+            <li>Prompt context is built from pane summaries, recent commands, and explicit artifacts.</li>
+            <li>Repair loops keep failed outputs attached to the originating instruction.</li>
+            <li>Context compression is evaluated against replayable terminal evidence.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Evaluation Lens</h2>
+        <div>
+          <ul>
+            <li>Prompt-state faithfulness</li>
+            <li>Repair quality after command failure</li>
+            <li>Compression loss in long sessions</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Open Discussion</h2>
+        <div>
+          <p>The central methodological risk is mistaking terminal completion for agent understanding. The project therefore treats tmux as both infrastructure and evidence: pane state, focus movement, command output, and recovery behavior all become part of the argument.</p>
+          <p>Future work can connect this static discussion to executable harnesses, trace viewers, and standardized task suites for cross-agent comparison.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Generated as a public research discussion site for prompt_agent and tmux adaptation.</p>
+    </footer>
+  </body>
+</html>
