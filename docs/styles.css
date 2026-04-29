@@ -23,11 +23,7 @@ body {
 
 .hero-image {
   display: block;
-  width: 100%;
-  height: auto;
-  max-height: 500px;
-  object-fit: cover;
-  border-bottom: 1px solid var(--line);
+  margin: 24px 0 0;
 }
 
 .site-header,
