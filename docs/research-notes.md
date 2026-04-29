@@ -31,6 +31,6 @@ The adapter compresses session history into prompt-relevant state while retainin
 - A final successful artifact may hide poor recovery behavior, repeated command attempts, or fragile focus management.
 - Agent-specific adapters can become difficult to compare unless trace schemas remain explicit and documented.
 
-## Hero Image Prompt Summary
+## Hero Image Source
 
-A 700x500 academic technical illustration for tmux adaptation research with prompt_agent, emphasizing terminal panes, agent traces, reproducible evaluation, and a serious research discussion style. The generated image was copied into `docs/assets/hero.png` and normalized to 700x500 pixels.
+The GitHub Pages hero image uses the shared tmux CUA screenshot, copied into `docs/assets/hero.png` at its original 1484x1060 PNG resolution.
