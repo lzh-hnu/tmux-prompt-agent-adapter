@@ -29,7 +29,7 @@ body {
 .site-header,
 main,
 .site-footer {
-  width: min(1040px, calc(100% - 40px));
+  width: min(1280px, calc(100% - 40px));
   margin: 0 auto;
 }
 
@@ -49,11 +49,12 @@ main,
 
 h1 {
   margin: 0;
-  max-width: 840px;
+  max-width: none;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2rem, 4vw, 4rem);
-  line-height: 1.05;
+  font-size: 2.2rem;
+  line-height: 1.1;
   font-weight: 650;
+  white-space: nowrap;
 }
 
 .subtitle {
